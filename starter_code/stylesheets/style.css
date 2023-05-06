@@ -8,3 +8,49 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav parent */
+.nav-bar {
+  /* Background for nav bar */
+  background:#540B51;
+  width: 70%;
+
+  /* padding to push content inward */
+  padding: 20px;
+
+/* Flexbox styles */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* Logo */
+.left img {
+  width: 5rem;
+}
+
+/* Right buttons */
+.right button {
+  border: none;
+  background: #540B51;
+}
+
+.search-btn {
+  margin-right: 8px;
+}
+
+.right img {
+  width: 1.5rem;
+}
