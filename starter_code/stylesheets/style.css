@@ -21,36 +21,136 @@ body {
   padding: 0;
 }
 
-/* nav parent */
-.nav-bar {
-  /* Background for nav bar */
-  background:#540B51;
-  width: 70%;
+button {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  height: 65px;
+}
 
-  /* padding to push content inward */
+.container {
   padding: 20px;
-
-/* Flexbox styles */
-  display: flex;
-  justify-content: space-between;
-
 }
 
-/* Logo */
-.left img {
-  width: 5rem;
-}
+  /* nav parent */
+  .nav-bar {
+    /* Background for nav bar */
+    background:#540B51;
+    
+    align-items: center;
+  /* Flexbox styles */
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  /* Logo */
+  .left img {
+    width: 5rem;
+  }
+  
+  /* Right buttons */
+  .right button {
+    border: none;
+    background: #540B51;
+  }
+  
+  .search-btn {
+    margin-right: 8px;
+  }
+  
+  .right img {
+    width: 1.5rem;
+  }
 
-/* Right buttons */
-.right button {
-  border: none;
-  background: #540B51;
-}
 
-.search-btn {
-  margin-right: 8px;
-}
+  /* Header  */
+  header {
+    background:#540B51;
+  }
 
-.right img {
-  width: 1.5rem;
+  header h1 {
+    margin: 0;
+    color: #fff;
+  }
+
+  .top-container {
+    display: flex;
+    text-align: center;
+  }
+
+  .top-container p {
+    font-size: 1.9rem;
+    color: #fff;
+    margin-top: 30px;
+  }
+
+  .top-container span {
+    color: #ECB12F;
+  }
+
+  .header-buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-buttons-container button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    
+  }
+
+  .email-btn {
+    color: #540B51;
+  }
+
+  .google-btn {
+    background: #2E71A6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .google-btn span {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .google-btn img {
+    height: 45px;
+    width: 45px;
+    background: white;
+    border-radius: 3px;
+  }
+  
+
+  .screenshot-container {
+    margin-top: 20px;
+  }
+
+
+@media(max-width:768px){
+  .container {
+    max-width: 768px;
+  }
+  /* Hide the menu items on mobile devices */
+  .menu-items {
+    display: none;
+  }
+
+  /* size of text for mobile  */
+  header h1 {
+    font-size: 4rem;
+  }
+
+  /* putting top items in a column */
+  .top-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
