@@ -63,10 +63,10 @@
 
       <p><span>Slack is free to try</span> for as long as you'd like.</p>
 
-      <div class="header-buttons-container">
-        <button class="email-btn">Sign up with email</button>
+      <div class="btn-container">
+        <button class="btn email-btn">Sign up with email</button>
 
-        <button class="google-btn">
+        <button class="btn google-btn">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -80,21 +80,27 @@
   </header>
 
   <main>
-    <section>
+    <section class="companies container">
       <p>Trusted by companies all over the world</p>
 
-      <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+      <div class="logos">
+        <div class="top-images">
+          <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
+          <img src="./images/logo-nasa.png" alt="NASA logo" />
+          <img src="./images/logo-uber.png" alt="Uber logo" />
+          <img src="./images/logo-target.png" alt="Target logo" />
+        </div>
+
+        <div class="bottom-images">
+          <img src="./images/logo-nyt.png" alt="New York Times logo" />
+          <img src="./images/logo-spotify.png" alt="Spotify logo" />
+        </div>        
+
       </div>
 
     </section>
 
-    <section>
+    <section class="article">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
@@ -113,7 +119,10 @@
       </div>
     </section>
 
-    <section>
+    <section class="article">
+      <div>
+        <img src="./images/flexibility-mobile.png" alt="flexibility" />
+      </div>
       <div>
         <h2>Choose how you want to work</h2>
         <p>
@@ -126,13 +135,9 @@
           <span>Learn more about flexible communication</span>
         </a>
       </div>
-
-      <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
-      </div>
     </section>
 
-    <section>
+    <section class="article">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
@@ -151,16 +156,16 @@
     </section>
 
 
-    <section>
-      <h3>Teams large and small rely on Slack</h3>
-      <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+    <section class="slack container">
+      <h3>Teams large and small<br> rely on Slack</h3>
+      <p>Slack securely scales up to support <br> collaboration at the world’s biggest companies.</p>
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div class="btn-container">
+        <button class="btn slack">Meet Slack for enterprise</button>
+        <button class="btn sales">Talk to sales</button>
       </div>
 
-      <ul>
+      <ul class="percentages-container">
         <li>
           <p><span>85%</span></p>
           <p>
@@ -187,11 +192,11 @@
       </ul>
     </section>
 
-    <section>
-      <h3>Welcome to your new digital HQ</h3>
+    <section class="welcome btn-container container">
+      <h3 class="center">Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="btn purple">Talk to sales</button>
+      <button class="btn white">Try for free</button>
     </section>
 
   </main>

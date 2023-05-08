@@ -27,6 +27,21 @@ button {
   height: 65px;
 }
 
+.white {
+  background: white;
+  color: #540B51
+}
+
+.purple {
+  background: #540B51;
+  color: white;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
   padding: 20px;
 }
@@ -88,13 +103,13 @@ button {
     color: #ECB12F;
   }
 
-  .header-buttons-container {
+  .btn-container {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
 
-  .header-buttons-container button {
+  .btn {
     padding-top: 15px;
     padding-bottom: 15px;
     margin: 10px;
@@ -130,6 +145,152 @@ button {
 
   .screenshot-container {
     margin-top: 20px;
+  }
+
+  .screenshot-container img {
+    width: 100%;
+  }
+
+
+  /* Companies Section */
+  .companies.container {
+    padding: 50px;
+  }
+  .companies {
+    background: #F3EAE2;
+  }  
+
+  .companies p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .companies .logos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-images, 
+  .top-images {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .companies p {
+    margin: 0;
+  }
+
+  .bottom-images,
+  .top-images {
+    padding-top: 40px;
+
+  }
+
+  .top-images img {
+    width: 55px;
+    height: 30px;
+  }
+
+  .bottom-images img {
+    width: 200px;
+  }
+
+
+  /* Bring team section  */
+  .article {
+    padding: 20px;
+    background: #F3EAE2;
+  }
+
+  .article img {
+    width: 95%;
+  }
+
+
+  .article h2 {
+    font-size: 2rem;
+  }
+
+  .article p {
+    font-size: 1.3rem;
+    line-height: 27px;
+  }
+
+  .article a {
+    text-decoration: none;
+  }
+
+  .article span {
+    color: #2E71A6;
+    font-size: 1.3rem;
+  }
+
+
+  /* Slack Section */
+  .slack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slack h3 {
+    font-size: 2rem;
+  }
+
+  .slack p {
+    font-size: 1.3rem;
+    line-height: 27px;
+    margin: 0;
+  }
+
+  .btn.slack {
+    background: #540B51;
+    color: white;
+  }
+
+  .btn.sales {
+    background: white;
+    border: 1px solid #540B51;
+    color: #540B51
+  }
+
+
+  .percentages-container {
+    padding-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .percentages-container span {
+    color: #540B51;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .percentages-container p {
+    color: black;
+    font-weight: bold;
+    width: 34%;
+    margin: 3px auto;
+  }
+
+  .welcome {
+    text-align: center;
+    background: #540B51;
+  }
+
+  .welcome .purple {
+    border: 1px solid white;
+  }
+
+  .welcome h3 {
+    color: white;
+    font-size: 3rem;
+    width: 80%;
   }
 
 
