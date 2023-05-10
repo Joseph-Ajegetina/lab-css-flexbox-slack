@@ -11,6 +11,9 @@ footer links grey: #454245
 
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400&display=swap');
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -19,6 +22,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 button {
@@ -79,8 +83,10 @@ button {
 
 
   /* Header  */
-  header {
+  .header {
     background:#540B51;
+    display: flex;
+    flex-direction: column;
   }
 
   header h1 {
@@ -161,7 +167,8 @@ button {
   }  
 
   .companies p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    padding-left: 20px;
     text-transform: uppercase;
   }
 
@@ -381,10 +388,6 @@ button {
   .container {
     max-width: 768px;
   }
-  /* Hide the menu items on mobile devices */
-  .menu-items {
-    display: none;
-  }
 
   /* size of text for mobile  */
   header h1 {
@@ -396,5 +399,28 @@ button {
     flex-direction: column;
     align-items: center;
   }
+}
 
+
+@media(min-width:768px)  and (max-width:1024px)  {
+    /* Hide the menu items on mobile devices */
+    .menu-items {
+      display: none;
+    }
+  .header {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .top-container {
+    flex-direction: column;
+
+  }
+  .top-container img {
+    width: 40%;
+  }
+
+  .logos {
+    display: flex;
+  }
 }
