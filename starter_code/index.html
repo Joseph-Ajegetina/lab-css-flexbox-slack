@@ -94,7 +94,7 @@
         <div class="bottom-images">
           <img src="./images/logo-nyt.png" alt="New York Times logo" />
           <img src="./images/logo-spotify.png" alt="Spotify logo" />
-        </div>        
+        </div>
 
       </div>
 
@@ -114,7 +114,9 @@
         </p>
 
         <a href="#">
-          <span>Learn more about channels</span>
+          <div class="wrapper">
+            <span>Learn more about channels</span><span><img src="./images/icon-arrow-right.png" alt="right arrow"></span>
+          </div>
         </a>
       </div>
     </section>
@@ -132,7 +134,9 @@
         </p>
 
         <a href="#">
-          <span>Learn more about flexible communication</span>
+          <div class="wrapper">
+            <span>Learn more about flexible communication</span><span><img src="./images/icon-arrow-right.png" alt="right arrow"></span>
+          </div>
         </a>
       </div>
     </section>
@@ -150,7 +154,9 @@
         </p>
 
         <a href="#">
-          <span>Learn more about the Slack platform</span>
+          <div class="wrapper">
+            <span>Learn more about the Slack platform</span><span><img src="./images/icon-arrow-right.png" alt="right arrow"></span>
+          </div>
         </a>
       </div>
     </section>
@@ -201,11 +207,11 @@
 
   </main>
 
-  <footer>
+  <footer class="footer">
     <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
-      <ul>
-        <li>WHY SLACK?</li>
+    <div class="row-display">
+      <ul class="column-display">
+        <li class="list-header">WHY SLACK?</li>
         <li>Slack vs. Email</li>
         <li>Channels</li>
         <li>Engagement</li>
@@ -213,8 +219,8 @@
         <li>Watch the Demo</li>
       </ul>
 
-      <ul>
-        <li>PRODUCT</li>
+      <ul class="column-display">
+        <li class="list-header">PRODUCT</li>
         <li>Features</li>
         <li>Integrations</li>
         <li>Enterprise</li>
@@ -222,14 +228,14 @@
         <li>Releases</li>
       </ul>
 
-      <ul>
-        <li>PRICING</li>
+      <ul class="column-display">
+        <li class="list-header">PRICING</li>
         <li>Plans</li>
         <li>Paid vs. Free</li>
       </ul>
 
-      <ul>
-        <li>COMPANY</li>
+      <ul class="column-display">
+        <li class="list-header">COMPANY</li>
         <li>About Us</li>
         <li>Leadership</li>
         <li>Investor Relations</li>
@@ -239,20 +245,29 @@
       </ul>
     </div>
 
+    <hr>
 
-    <ul>
+    <ul class="column-display bold">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
       <li>Cookie Preferences</li>
       <li>Contact Us</li>
-      <li>Change Region</li>
-      <li>Download Slack</li>
+      <li>
+        <div class="wrapper">
+          <img src="./images/icon-region.png" alt="region icon"><span>Change Region</span>
+        </div>
+      </li>
+      <li>
+        <div class="wrapper">
+          <span><img src="./images/icon-download.png" alt="download icon"></span><span class="download" >Download Slack</span>
+        </div>
+      </li>
     </ul>
 
-    <hr>
 
-    <ul>
+
+    <ul class="row-display footer-icons">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
@@ -267,7 +282,7 @@
       </li>
     </ul>
 
-    <div>
+    <div class="grey-text">
       <small>
         &copy; 2022 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by
         their respective owners.

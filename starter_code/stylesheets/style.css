@@ -294,6 +294,89 @@ button {
   }
 
 
+  /* Footer */
+  footer {
+    padding: 30px
+  }
+
+  footer img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+
+  footer ul {
+    padding: 0;
+  }
+
+  /* Removing the bullet */
+  footer ul {
+    list-style-type: none;
+  }
+
+  /* Divider  */
+  hr {
+    margin:60px 0;
+  }
+
+  .column-display {
+    display: flex;
+    flex-direction: column;
+    gap: 38px
+  }
+
+  .row-display {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+  }
+
+
+  .list-header{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+  }
+
+  .footer-icons {
+    margin: 50px 0;
+  }
+
+  .footer-icons i {
+    font-size: 2rem;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    gap: 10px
+  }
+
+  .wrapper img {
+    width: 20px;
+  
+  } 
+
+  footer .wrapper img {
+    padding-top: 20px;
+  }
+
+  .download {
+    color: #2E71A6
+  }
+
+  .grey-text {
+    color: #454245
+  }
+  
+
+
+
+
 @media(max-width:768px){
   .container {
     max-width: 768px;
